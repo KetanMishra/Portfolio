@@ -14,7 +14,7 @@ export default function Hero() {
   const { ref } = useSectionInView("home");
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
-  const handleContactClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const handleContactClick = (e: React.MouseEvent<HTMLElement>) => {
     smoothScrollTo({ e, id: "contact" });
     setActiveSection("contact");
     setTimeOfLastClick(Date.now());

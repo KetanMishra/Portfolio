@@ -9,7 +9,7 @@ export const smoothScrollTo = ({
   e,
   id,
 }: {
-  e: React.MouseEvent<HTMLAnchorElement, MouseEvent>
+  e: React.MouseEvent<HTMLElement, MouseEvent>
   id: string
 }) => {
   e.preventDefault()
