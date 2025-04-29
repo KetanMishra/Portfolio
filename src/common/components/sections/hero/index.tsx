@@ -78,7 +78,7 @@ export default function Hero() {
               {/* Download CV link */}
               <a
                 className="borderBlack group flex w-64 items-center justify-center gap-2 rounded-full bg-white px-7 py-3 text-black outline-none transition hover:bg-gray-100 dark:bg-white/10 dark:text-white dark:hover:bg-white/20 sm:w-auto"
-                href="CV_Azimov_Maksym.pdf"
+                href="Ketan_Mishra_CV.pdf"
                 download
               >
                 <span>Download CV</span>
