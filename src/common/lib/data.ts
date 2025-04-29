@@ -40,36 +40,53 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'String Lab Technology Soutions Private Limited',
+    title: 'String Lab Technology Solutions Private Limited',
     location: 'India',
     description:
-      'Front-end Developer. Providing services in the field of information technology services, including administration servers, cloud services, information systems and software development.',
+      'Intern | Sep 2024 - Dec 2024\n- Developed and managed WordPress-based blogs and front-end website features.\n- Led a project on OHLC Candle data for stock market analysis, integrating APIs to collect stock details.\n- Supervised junior interns and coordinated teamwork for project execution.\n- Tech Used: WordPress, API Integration, Data Analysis',
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'September 2024 ',
+    date: 'Sep 2024 - Dec 2024',
   },
-  // {
-  //   title: 'Granton s.r.o.',
-  //   location: 'Prague, Czechia',
-  //   description:
-  //     'Front-end Developer. Delivering flawless UI/UX, Frontend Workflow, Architecture & App Development.',
-  //   icon: React.createElement(BriefcaseBusinessIcon),
-  //   date: 'Oct 2024 - Present',
-  // },
-  // {
-  //   title: 'WhirrCrew s.r.o.',
-  //   location: 'Prague, Czechia',
-  //   description:
-  //     'Front-end Developer. Responsible for implemntation of accessible and interactive interface. Working on various projects with AI integration.',
-  //   icon: React.createElement(BriefcaseBusinessIcon),
-  //   date: 'Jun 2024 - Present',
-  // },
-  // {
-  //   title: 'NAU',
-  //   location: 'Kyiv, Ukraine',
-  //   description: `Bachelor's degree in Cybersecurity. The faculty of Cyber Security and Software Engineering.`,
-  //   icon: React.createElement(BookIcon),
-  //   date: 'Sep 2022 - Jun 2024',
-  // },
+  {
+    title: 'AI-Driven Chatbot for Real-World Applications',
+    location: 'Project',
+    description:
+      '- Implemented secure authentication with hashing, ensuring 100% data integrity in MySQL.\n- Reduced response time by 40% through optimized database interactions.\n- Enabled dynamic interactions, improving chatbot accuracy by 30%.\n- Tech Stack: PHP, AIML, MySQL, HTML, CSS, JavaScript, Bootstrap',
+    icon: React.createElement(BookIcon),
+    date: 'Dec 2024',
+  },
+  {
+    title: 'E-Commerce Website Development',
+    location: 'Project',
+    description:
+      '- Designed and deployed a fully functional e-commerce platform with 50+ product categories.\n- Optimized UI/UX, increasing user engagement by 25%.\n- Integrated a secure payment gateway, reducing cart abandonment by 20%.\n- Deployed on Netlify, achieving 99.9% uptime for seamless access.\n- Improved site responsiveness and loading speed, reducing bounce rate by 35%.\n- Tech Stack: HTML, CSS, JavaScript, React.js, Netlify',
+    icon: React.createElement(BookIcon),
+    date: 'Nov 2024',
+  },
+  {
+    title: 'Lovely Professional University',
+    location: 'Punjab, India',
+    description:
+      'Bachelor of Technology - Computer Science and Engineering; CGPA: 6.47\nAugust 2022 - Pursuing',
+    icon: React.createElement(BookIcon),
+    date: 'Aug 2022 - Present',
+  },
+  {
+    title: 'Guru Gobind Singh Public School',
+    location: 'Kamre, Ranchi',
+    description:
+      'Intermediate; Percentage: 72.5%\nApril 2020 - March 2022',
+    icon: React.createElement(BookIcon),
+    date: 'Apr 2020 - Mar 2022',
+  },
+  {
+    title: 'Guru Gobind Singh Public School',
+    location: 'Kamre, Ranchi',
+    description:
+      'Matriculation; Percentage: 85.5%\nApril 2018 - March 2020',
+    icon: React.createElement(BookIcon),
+    date: 'Apr 2018 - Mar 2020',
+  },
 ] as const;
 
 export const images = {
